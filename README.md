@@ -1,9 +1,9 @@
 # WineDevelopment, WineDevelopment.mono, and WineDevelopment.gecko Flatpaks
 ## Installing
-- Download WineDevelopment9.16.flatpak, WineDevelopment.mono9.3.0.flatpak, and WineDevelopment.gecko2.47.4.flatpak from releases
-- Install WineDevelopment9.16.flatpak, WineDevelopment.mono9.3.0.flatpak, and WineDevelopment.gecko2.47.4.flatpak (sudo needed for installing single use Flatpak bundle)
+- Download WineDevelopment9.17.flatpak, WineDevelopment.mono9.3.0.flatpak, and WineDevelopment.gecko2.47.4.flatpak from releases
+- Install WineDevelopment9.17.flatpak, WineDevelopment.mono9.3.0.flatpak, and WineDevelopment.gecko2.47.4.flatpak (sudo needed for installing single use Flatpak bundle)
 ```console
-sudo flatpak install WineDevelopment9.16.flatpak
+sudo flatpak install WineDevelopment9.17.flatpak
 ```
 ```console
 sudo flatpak install WineDevelopment.mono9.3.0.flatpak
@@ -49,7 +49,7 @@ flatpak run org.flatpak.Builder --force-clean --repo=repo --user --install build
 ## Building single use Flatpak bundles like in the releases (After having followed the Building steps above)
 - Build the Flatpak bundles (Run this from within the org.winehq.WineDevelopment directory after having followed the Building steps above)
 ```console
-flatpak build-bundle repo WineDevelopment9.16.flatpak org.winehq.WineDevelopment stable-23.08
+flatpak build-bundle repo WineDevelopment9.17.flatpak org.winehq.WineDevelopment stable-23.08
 ```
 ```console
 flatpak build-bundle --runtime repo WineDevelopment.mono9.3.0.flatpak org.winehq.WineDevelopment.mono stable-23.08
